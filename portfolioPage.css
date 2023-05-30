@@ -1,0 +1,142 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: url(starrySky.jpg);
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #6677CC;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Align items horizontally */
+  align-items: center; /* Align items vertically */
+  width: 100%;
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  display: flex;
+}
+
+nav li {
+  margin-right: 10px; /* Add some spacing between navigation items */
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #6677CC;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: #2929cc;
+  color: #fff;
+}
+
+
+main {
+  padding-left: 5px;
+  background-image: url(starryBackground.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+  color: aliceblue;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.project {
+  border: 8px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  max-width: 57%;
+  min-width: 57%;
+}
+
+.project:hover{background-color: #2929cc;
+font-size: 21px;}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.project h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#about-me {
+  margin-left: 28%;
+  padding-top: 4%;
+}
+
+#about-me p {
+  margin-bottom: 10px;
+}
+
+#tileContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 16px;
+}
+
+.project {
+  width: fit-content;
+  min-width: 40%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  line-height: 30px;
+  color: white;
+border-radius: 0px;
+  margin-bottom: 50px;
+  background-color: #6677CC;
+  
+  height: 870px;
+  line-height: 42px;
+  font-size: 20px;
+  border-color: #fff;
+  border: 2px outset#A1CAFF ;
+}
+
+
+
+.project img {
+  margin: 6px;
+  width: 75%;
+}
+
+.footer {height: 3%;}
+
+  
